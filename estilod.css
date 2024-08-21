@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 20px;
+    width: auto;
+    }
+    body{
+        background-color: aliceblue;
+        /* background-img */
+    }
+       
+       
+       /* estilo do menu de navegação */
+    nav{
+        background-color: rgb(231, 158, 202);
+        padding: 10px 0;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: right;
+    }
+    nav ul li{
+        margin: 0 15px;
+    }
+    nav ul li a{
+        color: rgb(230, 234, 172);
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "Bodoni Moda SC", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        transition: color 0.3s;
+    }
+    nav ul li a :hover{
+        color: rgb(198, 99, 175);
+    }
+     
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+    }
+    img{
+        width:50px ;
+        height:50px ;
+        border-width: 10px;
+       
+    }
